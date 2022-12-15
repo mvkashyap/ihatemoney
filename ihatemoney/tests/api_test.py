@@ -393,7 +393,7 @@ class APITestCase(IhatemoneyTestCase):
             "converted_amount": 25.0,
             "original_currency": "XXX",
             "external_link": "https://raclette.fr",
-            "is_reimbursement": "false",
+            "is_reimbursement": "False",
 	}
 
         got = json.loads(req.data.decode("utf-8"))
